@@ -1,5 +1,6 @@
 from unittest import TestCase
 from statistics import variance
+from statistics import stdev
 
 
 class StatisticsTest(TestCase):
