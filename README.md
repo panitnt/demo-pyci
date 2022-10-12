@@ -1,5 +1,7 @@
 Continuous Integration Demo
 ============================
+[![Unit Tests](https://github.com/panitnt/demo-pyci/actions/workflows/python-app.yml/badge.svg)](https://github.com/panitnt/demo-pyci/actions/workflows/python-app.yml)
+[![codecov](https://codecov.io/gh/panitnt/demo-pyci/branch/main/graph/badge.svg?token=EKNN48U6VQ)](https://codecov.io/gh/panitnt/demo-pyci)
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 Create a repository on Github, then use Github Actions to build and test it.
