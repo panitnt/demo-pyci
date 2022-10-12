@@ -35,7 +35,7 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=80 --statistics
     - name: Test with unittest
-        run: |
+      run: |
           coverage run -m unittest
           coverage xml
     - name: Upload coverage reports to Codecov with GitHub Action
