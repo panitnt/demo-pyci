@@ -15,6 +15,14 @@ class StatisticsTest(TestCase):
         with self.assertRaises(ValueError):
             var = variance([])
 
+    def test_stdev(self):
+        # std zero
+        data = [10.0, 10.0]
+        self.assertEqual(0.0 , stdev(data))
+        # variance is 4, std is 2
+        data = [10.0, 14.0]
+        self.assertEqual(2.0, stdev(data))
+
 
 if __name__ == '__main__':
     import unittest
